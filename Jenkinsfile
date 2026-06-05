@@ -1,4 +1,4 @@
-pipeline
+pipeline {
  agent any
  tools{
 	maven 'Maven3'
@@ -36,4 +36,5 @@ pipeline
 	always{
 		echo 'Pipeline execution completed'
 	}
- }
+ } 
+}
